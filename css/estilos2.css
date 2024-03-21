@@ -54,13 +54,8 @@ img{
 
 header {
     width: 100%;
-    height: 600px;
-    background: #bc4e9c;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(0, 1%, 53%, 0.459), hsla(0, 0%, 71%, 0.664)), url(../img/olas.jpg);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 0%, 33%, 0.459), hsla(0, 0%, 38%, 0.664)), url(../img/olas.jpg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 90%;
+
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -121,6 +116,12 @@ main .sobre-nosotros{
     padding: 30px 0 60px 0;
 }
 .contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor-sobre-nosotros2{
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
 }
